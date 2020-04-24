@@ -1,0 +1,47 @@
+colorPrimary = #97c93e 
+
+#main
+    img 
+        max-height: 70vh
+        object-fit: cover
+        filter: grayscale(70%)
+        
+    #carusel
+        position relative
+
+        
+    
+& .overlay 
+    position: absolute
+    z-index 2
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background: rgba(0, 0, 0, 0.5)
+    color: white
+ 
+.container, .row
+    height 100%
+
+.btn-platzi 
+    background: colorPrimary
+    color: white
+
+    &:hover
+        background: #82ad36
+
+.card
+   & img
+       height: 380px
+#footer
+        background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372)
+
+        & a
+            color: white
+
+#place-time
+    background-color: #343a40
+    color: white
+    img 
+        max-width: 100%
